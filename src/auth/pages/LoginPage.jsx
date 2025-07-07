@@ -6,7 +6,7 @@ export const LoginPage = () => {
     return (
         <Grid
             container
-            sparcing={0}
+            spacing={0}
             direction={'column'}
             alignItems={'center'}
             justifyContent={'center'}
@@ -36,7 +36,7 @@ export const LoginPage = () => {
                                 fullWidth
                             />
                         </Grid>
-                        <Grid container sparcing={2} sx={{ mb: 2, mt: 1 }}>
+                        <Grid container spacing={1} sx={{ mb: 2, mt: 1 }}>
                             <Grid item xs={12} sm={6}>
                                 <Button variant='contained' fullWidth>
                                     Login
